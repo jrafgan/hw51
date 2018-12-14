@@ -1,0 +1,21 @@
+.image {
+  display: block;
+  width: 200px;
+  height: 300px
+}
+ .grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 10px;
+   padding: 10px;
+   justify-content: center;
+ }
+
+ .blocks {
+   display: inline-grid;
+   padding: 20px;
+   border: 1px solid #eee;
+   box-shadow: 0 2px 2px #ccc;
+   margin: 20px;
+   background: #2196F3;
+ }
